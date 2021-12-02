@@ -1,1 +1,3 @@
 ##使用javassist和javaAgent修改某个类的方法体的示例
+先将agent模块打成jar
+然后启动byAgent时添加jvm参数-javaagent:xx/agent.jar即可看到效果
